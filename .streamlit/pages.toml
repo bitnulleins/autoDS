@@ -1,0 +1,29 @@
+[[pages]]
+path = "./src/server.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
+path = "./src/pages/upload.py"
+name = "Upload Data"
+icon = "🗄️"
+
+[[pages]]
+path = "./src/pages/eda.py"
+name = "EDA"
+icon = "📊"
+
+[[pages]]
+path = "./src/pages/automl.py"
+name = "AutoML Training"
+icon = "🤖"
+
+[[pages]]
+path = "./src/pages/preview.py"
+name = "Predictions"
+icon = "🔎"
+
+[[pages]]
+path = "./src/pages/api.py"
+name = "Deployment"
+icon = "⚙️"
