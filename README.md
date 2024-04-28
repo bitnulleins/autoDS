@@ -1,6 +1,6 @@
-<center>
+<p align="center">
 <img src="./src/_static/images/logo_alt.svg" width="300">
-</center>
+</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/version-1.0.0-blue" /> <img src="https://img.shields.io/github/license/bitnulleins/autoDS" /> 
@@ -18,9 +18,9 @@
 
 ## Screenshot
 
-<center>
+<p align="center">
 <img src="./src/_static/images/mockup.svg">
-</center>
+</p>
 
 ## How to use
 
