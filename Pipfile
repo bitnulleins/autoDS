@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "0.73.0"
+uvicorn = "0.15.0"
+streamlit = "*"
+st-pages = "*"
+pycaret = "*"
+pyarrow = "*"
+plotly = "*"
+python-dotenv = "*"
+shap = "*"
+interpret-community = "*"
+ydata-profiling = "*"
+streamlit-extras = "*"
+xgboost = "*"
+catboost = "*"
+lightgbm = "*"
+
+[dev-packages]
+pre-commit = "*"
+isort = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+server = "streamlit run src/server.py"
+api = "python ./src/api/flug_baggage_api.py"
+precommit = "pre-commit run"
