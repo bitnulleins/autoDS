@@ -11,7 +11,8 @@ load_dotenv()
 init()
 
 
-st.header("🗄️ Dataset")
+st.title("🗄️ Dataset")
+
 @st.cache_data
 def load_data():
     """Generate dataframe with sample size."""

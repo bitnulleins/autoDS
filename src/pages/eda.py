@@ -23,7 +23,7 @@ def generate_profile():
     pr.config.html.style.primary_colors = ['#DA1C30']
     return pr
 
-st.header("📊 Exploratory Data Analysis (EDA)")
+st.title("📊 Exploratory Data Analysis (EDA)")
 
 if 'df' in st.session_state:
     st.write(f"Explore target {st.session_state.target}")

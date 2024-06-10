@@ -63,7 +63,7 @@ def render_form(df, target):
 
     return pd.DataFrame([values])
 
-st.header("🔎 Prediction Preview")
+st.title("🔎 Prediction Preview")
 
 st.write("Compare deployed and other uploaded models.")
 

@@ -12,7 +12,7 @@ from components.header import init
 
 init()
 
-st.header("⚙️ Deploy API")
+st.title("⚙️ Deploy API")
 
 if "reg" in st.session_state:
     with st.spinner("Init api..."):

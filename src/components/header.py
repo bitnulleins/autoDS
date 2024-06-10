@@ -11,12 +11,14 @@ def get_base64_of_bin_file(png_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
+
 def build_markup_for_logo(
     png_file,
-    background_position="50% 3em",
+    background_position="50% 0em",
     margin="2em",
     image_width="85%",
     image_height="",
+    width="100%"
 ):
     binary_string = get_base64_of_bin_file(png_file)
     return """
@@ -28,6 +30,16 @@ def build_markup_for_logo(
                     padding-top: %s;
                     background-size: %s %s;
                 }
+                [data-testid="stSidebarNavItems"] {
+                    margin-top: 20px;
+                }
+                h1 {
+                    position: fixed;
+                    top: 60px;
+                    background: #fff;
+                    z-index: 999;
+                    width: %s;
+                }
             </style>
             """ % (
         binary_string,
@@ -35,6 +47,7 @@ def build_markup_for_logo(
         margin,
         image_width,
         image_height,
+        width,
     )
 
 def add_logo(png_file):
