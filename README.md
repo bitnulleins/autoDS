@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./src/_static/images/logo_alt.svg" width="300">
+<img src="./src/_static/images/logo.svg" width="300">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 ## Screenshot
 
 <p align="center">
-<img src="./src/_static/images/mockup.svg">
+<img src="./src/_static/images/screenshot.png">
 </p>
 
 ## How to use
