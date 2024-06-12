@@ -1,3 +1,5 @@
+.DS_Store
+
 # autoDS folders
 /src/api/*
 /src/_static/images/plots/*
