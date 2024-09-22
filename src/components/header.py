@@ -3,7 +3,7 @@ import os
 import streamlit as st
 import base64
 import numpy as np
-from st_pages import add_page_title, show_pages_from_config
+from st_pages import add_page_title, get_nav_from_toml
 
 @st.cache_data
 def get_base64_of_bin_file(png_file):
@@ -115,7 +115,8 @@ def init():
             my_bar.progress(100, text=progress_text)
 
     # Pages
-    show_pages_from_config()
+    nav = get_nav_from_toml(".streamlit/pages.toml")
+    pg = st.navigation(nav)
 
     # Random seed
     np.random.seed(int(os.environ.get("RANDOM_SEED")))
