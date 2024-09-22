@@ -1,29 +1,29 @@
 [[pages]]
-path = "server.py"
+path = "./sites/home.py"
 name = "Home"
 icon = "🏠"
 
 [[pages]]
-path = "pages/upload.py"
+path = "./sites/upload.py"
 name = "Upload Data"
 icon = "🗄️"
 
 [[pages]]
-path = "pages/eda.py"
+path = "./sites/eda.py"
 name = "EDA"
 icon = "📊"
 
 [[pages]]
-path = "pages/automl.py"
+path = "./sites/automl.py"
 name = "AutoML Training"
 icon = "🤖"
 
 [[pages]]
-path = "pages/preview.py"
+path = "./sites/preview.py"
 name = "Predictions"
 icon = "🔎"
 
 [[pages]]
-path = "pages/api.py"
+path = "./sites/api.py"
 name = "Deployment"
 icon = "⚙️"
